@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            FilmFavorit_103022400069 film = new FilmFavorit_103022400069();
+                film.ReadJSON();
         }
     }
 }
