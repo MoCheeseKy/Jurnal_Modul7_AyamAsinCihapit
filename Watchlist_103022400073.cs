@@ -7,15 +7,6 @@ namespace Jurnal_Modul7_AyamAsinCihapit
 {
     internal class Watchlist_103022400073
     {
-    //        "watchlistName": "Naufal Watch List",
-    //"createdBy": "Kelompok Ayam Asin Cihapit",
-    //"movies": [
-    //    {
-    //        "id": "F101",
-    //        "title": "The Matrix",
-    //        "year": 1999,
-    //        "genre": "Action",
-    //        "rating": 8.7
         public string watchlistName { get; set; }
         public string createdBy { get; set; }
         public List<FilmFavorit_103022400073> movies { get; set; }
