@@ -1,0 +1,27 @@
+{
+    "watchlistName": "Bucketlist film yg aku pengen tonton tp males",
+    "createdBy": "Ayam Asin Cihapit | Zulfan",
+    "movies": [
+        {
+            "id": "F101",
+            "title": "F1",
+            "year": 2025,
+            "genre": "Action",
+            "rating": "9.0"
+        },
+      {
+        "id": "F102",
+        "title": "The Notebook",
+        "year": 2004,
+        "genre": "Romance",
+        "rating": "7.5"
+      },
+      {
+        "id": "F103",
+        "title": "500 days of summer",
+        "year": 2010,
+        "genre": "Romance",
+        "rating": "8.9"
+      }
+    ]
+}

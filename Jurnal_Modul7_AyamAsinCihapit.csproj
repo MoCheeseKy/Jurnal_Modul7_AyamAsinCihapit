@@ -17,6 +17,9 @@
     <None Update="jurnal7_1_103022400076.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="jurnal7_2_103022400076.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
