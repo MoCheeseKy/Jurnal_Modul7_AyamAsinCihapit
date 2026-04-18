@@ -1,10 +1,3 @@
-﻿namespace Jurnal_Modul7_AyamAsinCihapit
-{
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
-    }
-}
+﻿
+        FilmFavorit_103022400076 mhs = new FilmFavorit_103022400076();
+        mhs.readJSON();
