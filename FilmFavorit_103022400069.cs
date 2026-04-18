@@ -12,7 +12,7 @@ namespace Jurnal_Modul7_AyamAsinCihapit
             string filePath = "jurnal7_1_103022400069.json";
             string jsonString = File.ReadAllText(filePath);
             Film flm = JsonSerializer.Deserialize<Film>(jsonString);
-            Console.WriteLine("Title "+ flm.title + ", Director " + flm.director + " , Year " +flm.year+ " , Genre "+ flm.genre+ " , Rating " + flm.rating + "/10 , Duration "+flm.durationMinutes+" Min , Watched ? "+flm.isWatched);
+            Console.WriteLine("Titles "+ flm.title + ", Directors " + flm.director + " , Year " +flm.year+ " , Genre "+ flm.genre+ " , Rating " + flm.rating + "/10 , Duration "+flm.durationMinutes+" Min , Watched ? "+flm.isWatched);
         }
     }
     public class Film
