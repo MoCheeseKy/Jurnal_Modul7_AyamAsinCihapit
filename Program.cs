@@ -1,8 +1,14 @@
-﻿Console.WriteLine("Deserialization 1:\n");
+﻿namespace Jurnal_Modul7_AyamAsinCihapit
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            FilmFavorit_103022400003.ReadJSON();
+            Watchlist_103022400003.ReadJSON();
+            GenreDictionary_103022400003.ReadJSON();    
+        }
+    }
 
-        FilmFavorit_103022400076 mhs = new FilmFavorit_103022400076();
-        mhs.readJSON();
-
-Console.WriteLine("\n__________\nDeserialization 2:\n");
-        Watchlist_103022400076 wth  = new Watchlist_103022400076();
-        wth.ReadJSON();
+}
+﻿
