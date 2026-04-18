@@ -10,6 +10,11 @@
             Watchlist_103022400073.ReadJson();
             Console.WriteLine("###Deserialization 3");
             GenreDictionary_103022400073.ReadJson();
+            FilmFavorit_103022400003.ReadJSON();
+            Watchlist_103022400003.ReadJSON();
+            GenreDictionary_103022400003.ReadJSON();    
         }
     }
+
 }
+﻿
