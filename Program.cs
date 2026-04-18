@@ -6,6 +6,8 @@
         {
             FilmFavorit_103022400003.ReadJSON();
             Watchlist_103022400003.ReadJSON();
+            GenreDictionary_103022400003.ReadJSON();    
         }
     }
+
 }
