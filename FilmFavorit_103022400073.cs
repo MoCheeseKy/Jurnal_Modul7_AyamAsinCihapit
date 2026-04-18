@@ -6,13 +6,6 @@ using System.Text.Json;
 
 namespace Jurnal_Modul7_AyamAsinCihapit
 {
-    // "title": "Kamu di Adopsi",
-    //"director": "Mulyani",
-    //"year": "2077",
-    //"genre": "Drama",
-    //"rating": 4.9,
-    //"durationMinutes": 250,
-    //"isWatched": true
     internal class FilmFavorit_103022400073
     {
         public string title { get; set; }
