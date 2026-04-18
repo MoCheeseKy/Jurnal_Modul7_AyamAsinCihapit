@@ -4,9 +4,8 @@
     {
         static void Main(string[] args)
         {
-            //FilmFavorit_103022400003 film = new FilmFavorit_103022400003();
-            //film.ReadJSON();
             FilmFavorit_103022400003.ReadJSON();
+            Watchlist_103022400003.ReadJSON();
         }
     }
 }

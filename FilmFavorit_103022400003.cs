@@ -19,7 +19,14 @@ namespace Jurnal_Modul7_AyamAsinCihapit
         {
             string json = File.ReadAllText("jurnal7_1_103022400003.json");
             FilmFavorit_103022400003 film = JsonSerializer.Deserialize<FilmFavorit_103022400003>(json);
-            Console.WriteLine($"Title: {film.Title}, Director: {film.Director}, Year: {film.Year}, Genre: {film.Genre}, Rating: {film.Rating}, DurationMinutes: {film.DurationMinutes}, IsWatched: {film.IsWatched}");
+            Console.WriteLine(
+                $"Title: {film.Title}, " +
+                $"Director: {film.Director}, " +
+                $"Year: {film.Year}, " +
+                $"Genre: {film.Genre}, " +
+                $"Rating: {film.Rating}, " +
+                $"DurationMinutes: {film.DurationMinutes}, " +
+                $"IsWatched: {film.IsWatched}");
 
         }
     }
